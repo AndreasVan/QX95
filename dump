@@ -1,10 +1,6 @@
 
-
-
-# dump
-
 # version
-# Cleanflight/SPRACINGF3EVO 1.13.0 Jun  6 2016 / 00:03:29 (a77bc76)
+# Cleanflight/SPRACINGF3EVO 1.13.0 Feb  11 2017 / 00:03:29 (a77bc76)
 # dump master
 
 # mixer
@@ -14,7 +10,7 @@ smix reset
 
 
 # feature
-feature RX_PPM
+feature -RX_PPM
 feature -VBAT
 feature -INFLIGHT_ACC_CAL
 feature -RX_SERIAL
@@ -36,9 +32,8 @@ feature -ONESHOT125
 feature -BLACKBOX
 feature -CHANNEL_FORWARDING
 feature -TRANSPONDER
+feature RX_PPM
 feature VBAT
-feature -RX_SERIAL
-feature MOTOR_STOP
 feature FAILSAFE
 feature TELEMETRY
 feature CURRENT_METER
@@ -53,15 +48,15 @@ map TAER1234
 # serial
 serial 20 1 115200 57600 0 115200
 serial 0 1 115200 57600 0 115200
-serial 1 64 115200 57600 0 115200
+serial 1 0 115200 57600 0 115200
 serial 2 0 115200 57600 0 115200
 
 
 # led
-led 0 0,7::IC:3
-led 1 15,7::IATC:12
-led 2 7,7::IATC:12
-led 3 8,7::IC:3
+led 0 0,7:W:IA:2
+led 1 15,7:E:IATC:5
+led 2 7,7:N:IATC:12
+led 3 8,7:S:IA:3
 led 4 0,0:::0
 led 5 0,0:::0
 led 6 0,0:::0
@@ -149,7 +144,7 @@ mode_color 5 3 13
 mode_color 5 4 10
 mode_color 5 5 3
 mode_color 6 0 6
-mode_color 6 1 10
+mode_color 6 1 2
 mode_color 6 2 1
 mode_color 6 3 0
 mode_color 6 4 0
@@ -163,19 +158,19 @@ set i2c_highspeed = ON
 set gyro_sync = ON
 set gyro_sync_denom = 1
 set mid_rc = 1530
-set min_check = 1034
-set max_check = 2000
+set min_check = 1036
+set max_check = 1990
 set rssi_channel = 0
 set rssi_scale = 30
 set rssi_ppm_invert = OFF
 set rc_smoothing = OFF
 set rx_min_usec = 885
 set rx_max_usec = 2115
-set serialrx_provider = SBUS
+set serialrx_provider = SPEK1024
 set sbus_inversion = ON
 set spektrum_sat_bind = 0
 set input_filtering_mode = OFF
-set min_throttle = 1150
+set min_throttle = 1080
 set max_throttle = 2000
 set min_command = 1000
 set servo_center_pulse = 1500
@@ -216,8 +211,8 @@ set align_gyro = DEFAULT
 set align_acc = DEFAULT
 set align_mag = DEFAULT
 set align_board_roll = 0
-set align_board_pitch = 0
-set align_board_yaw = 0
+set align_board_pitch = -9
+set align_board_yaw = -3
 set max_angle_inclination = 500
 set gyro_lpf = 188HZ
 set gyro_soft_lpf = 60
@@ -272,8 +267,9 @@ rxfail 17 h
 profile 0
 
 # aux
-aux 1 1 0 2000 2100
-aux 2 0 0 2000 2100
+aux 0 0 0 900 900
+aux 1 0 0 900 900
+aux 2 0 0 900 900
 aux 3 0 0 900 900
 aux 4 0 0 900 900
 aux 5 0 0 900 900
@@ -352,7 +348,7 @@ set accz_deadband = 40
 set accz_lpf_cutoff =  5.000
 set acc_unarmedcal = ON
 set acc_trim_pitch = 0
-set acc_trim_roll = 4
+set acc_trim_roll = 0
 set baro_tab_size = 21
 set baro_noise_lpf =  0.600
 set baro_cf_vel =  0.985
@@ -404,5 +400,3 @@ set pitch_rate = 80
 set yaw_rate = 50
 set tpa_rate = 0
 set tpa_breakpoint = 1500
-
-# 
