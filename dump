@@ -1,6 +1,7 @@
 
+
 # version
-# Cleanflight/SPRACINGF3EVO 1.13.0 Feb  11 2017 / 00:03:29 (a77bc76)
+# Cleanflight/SPRACINGF3EVO 1.13.0 Jun  6 2016 / 00:03:29 (a77bc76)
 # dump master
 
 # mixer
@@ -158,8 +159,8 @@ set i2c_highspeed = ON
 set gyro_sync = ON
 set gyro_sync_denom = 1
 set mid_rc = 1530
-set min_check = 1036
-set max_check = 1990
+set min_check = 1034
+set max_check = 1900
 set rssi_channel = 0
 set rssi_scale = 30
 set rssi_ppm_invert = OFF
@@ -170,7 +171,7 @@ set serialrx_provider = SPEK1024
 set sbus_inversion = ON
 set spektrum_sat_bind = 0
 set input_filtering_mode = OFF
-set min_throttle = 1080
+set min_throttle = 1000
 set max_throttle = 2000
 set min_command = 1000
 set servo_center_pulse = 1500
@@ -267,9 +268,9 @@ rxfail 17 h
 profile 0
 
 # aux
-aux 0 0 0 900 900
-aux 1 0 0 900 900
-aux 2 0 0 900 900
+aux 0 0 0 1300 1600
+aux 1 1 1 1350 1550
+aux 2 2 1 1700 1925
 aux 3 0 0 900 900
 aux 4 0 0 900 900
 aux 5 0 0 900 900
