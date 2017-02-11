@@ -54,10 +54,10 @@ serial 2 0 115200 57600 115200 0
 
 
 # led
-led 0 0,7::CI:3
-led 1 15,7::CTI:12
-led 2 7,7::CTI:12
-led 3 8,7::CI:3
+led 0 0,6:W:CI:0
+led 1 7,6::A:0
+led 2 8,6::A:0
+led 3 15,6:E:CI:0
 led 4 0,0::C:0
 led 5 0,0::C:0
 led 6 0,0::C:0
@@ -145,7 +145,7 @@ mode_color 5 3 13
 mode_color 5 4 10
 mode_color 5 5 3
 mode_color 6 0 6
-mode_color 6 1 10
+mode_color 6 1 2
 mode_color 6 2 1
 mode_color 6 3 0
 mode_color 6 4 0
@@ -159,7 +159,7 @@ mode_color 6 10 0
 set debug_mode = NONE
 set emf_avoidance = OFF
 set i2c_highspeed = ON
-set mid_rc = 1530
+set mid_rc = 1532
 set min_check = 1034
 set max_check = 1990
 set rssi_channel = 0
@@ -280,8 +280,8 @@ profile 0
 # aux
 aux 0 0 0 1700 2100
 aux 1 1 1 900 1275
-aux 2 2 0 1375 2100
-aux 3 27 1 1350 2100
+aux 2 2 1 1700 2100
+aux 3 0 0 900 900
 aux 4 0 0 900 900
 aux 5 0 0 900 900
 aux 6 0 0 900 900
