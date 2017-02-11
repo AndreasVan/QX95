@@ -1,4 +1,25 @@
 
+2017-02-11 @ 13:11:15 -- CLI mode detected
+Setup
+Ports
+Configuration
+Failsafe
+PID Tuning
+Receiver
+Modes
+Adjustments
+Servos
+GPS
+Power & Battery
+Motors
+Race Transponder
+LED Strip
+Sensors
+Tethered Logging
+Blackbox
+CLI
+Note: Leaving CLI tab or pressing Disconnect will automatically send "exit" to the board. With the latest firmware this will make the controller restart and unsaved changes will be lost.
+
 Entering CLI Mode, type 'exit' to return, or 'help'
 
 # dump
@@ -50,10 +71,10 @@ map AETR1234
 
 
 # serial
-serial 20 1 115200 57600 115200 19200
-serial 0 1 115200 57600 115200 19200
-serial 1 64 115200 57600 115200 19200
-serial 2 0 115200 57600 115200 19200
+serial 20 1 115200 57600 19200 115200
+serial 0 1 115200 57600 19200 115200
+serial 1 64 115200 57600 19200 115200
+serial 2 0 115200 57600 19200 115200
 
 
 # led
@@ -348,8 +369,8 @@ set nav_speed_max = 300
 set nav_slew_rate = 30
 set alt_hold_deadband = 40
 set alt_hold_fast_change = ON
-set deadband = 5
-set yaw_deadband = 5
+set deadband = 3
+set yaw_deadband = 3
 set yaw_control_direction = 1
 set 3d_deadband_throttle = 0
 set throttle_correction_value = 0
@@ -409,15 +430,15 @@ set gtune_average_cycles = 16
 # rateprofile
 rateprofile 0
 
-set rc_rate = 90
-set rc_expo = 65
+set rc_rate = 50
+set rc_expo = 80
 set rc_yaw_expo = 0
 set thr_mid = 50
 set thr_expo = 0
-set roll_rate = 80
-set pitch_rate = 80
-set yaw_rate = 50
-set tpa_rate = 0
+set roll_rate = 72
+set pitch_rate = 68
+set yaw_rate = 120
+set tpa_rate = 40
 set tpa_breakpoint = 1500
 
 # 
