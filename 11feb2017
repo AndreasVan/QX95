@@ -407,7 +407,7 @@ set gtune_average_cycles = 16
 rateprofile 0
 
 set rc_rate = 100
-set rc_expo = 0
+set rc_expo = 75
 set rc_yaw_expo = 0
 set thr_mid = 0
 set thr_expo = 0
