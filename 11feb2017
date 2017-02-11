@@ -1,3 +1,6 @@
+
+Entering CLI Mode, type 'exit' to return, or 'help'
+
 # dump
 
 # version
@@ -47,10 +50,10 @@ map AETR1234
 
 
 # serial
-serial 20 1 115200 57600 115200 0
-serial 0 1 115200 57600 115200 0
-serial 1 0 115200 57600 115200 0
-serial 2 0 115200 57600 115200 0
+serial 20 1 115200 57600 115200 19200
+serial 0 1 115200 57600 115200 19200
+serial 1 64 115200 57600 115200 19200
+serial 2 0 115200 57600 115200 19200
 
 
 # led
@@ -145,7 +148,7 @@ mode_color 5 3 13
 mode_color 5 4 10
 mode_color 5 5 3
 mode_color 6 0 6
-mode_color 6 1 2
+mode_color 6 1 10
 mode_color 6 2 1
 mode_color 6 3 0
 mode_color 6 4 0
@@ -172,7 +175,7 @@ set serialrx_provider = SPEK1024
 set sbus_inversion = ON
 set spektrum_sat_bind = 0
 set input_filtering_mode = OFF
-set min_throttle = 1150
+set min_throttle = 1030
 set max_throttle = 2000
 set min_command = 1000
 set motor_pwm_rate = 1000
@@ -280,7 +283,7 @@ profile 0
 # aux
 aux 0 0 0 1700 2100
 aux 1 1 1 900 1275
-aux 2 2 1 1700 2100
+aux 2 0 0 900 900
 aux 3 0 0 900 900
 aux 4 0 0 900 900
 aux 5 0 0 900 900
@@ -345,8 +348,8 @@ set nav_speed_max = 300
 set nav_slew_rate = 30
 set alt_hold_deadband = 40
 set alt_hold_fast_change = ON
-set deadband = 0
-set yaw_deadband = 0
+set deadband = 5
+set yaw_deadband = 5
 set yaw_control_direction = 1
 set 3d_deadband_throttle = 0
 set throttle_correction_value = 0
