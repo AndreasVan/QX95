@@ -1,5 +1,4 @@
-
-# dump
+# dump 
 
 # version
 # BetaFlight/SPRACINGF3EVO 3.0.1 Oct 18 2016 / 10:36:44 (48b7b4f)
@@ -90,10 +89,10 @@ serial 1 64 115200 57600 0 115200
 serial 2 0 115200 57600 0 115200
 
 # led
-led 0 15,6::CI:0
-led 1 8,6::A:0
-led 2 7,6::A:0
-led 3 0,6::CI:0
+led 0 15,6::AIW:0
+led 1 8,6::AIW:0
+led 2 7,6::AIW:0
+led 3 0,6::AIW:0
 led 4 0,0::C:0
 led 5 0,0::C:0
 led 6 0,0::C:0
@@ -401,7 +400,7 @@ set dterm_lowpass_type = BIQUAD
 set dterm_lowpass = 100
 set dterm_notch_hz = 260
 set dterm_notch_cutoff = 160
-set vbat_pid_compensation = OFF
+set vbat_pid_compensation = ON
 set pid_at_min_throttle = ON
 set iterm_throttle_gain = 0
 set setpoint_relax_ratio = 85
@@ -412,12 +411,12 @@ set accum_threshold = 130
 set yaw_accum_threshold = 32
 set yaw_lowpass = 0
 set pid_controller = BETAFLIGHT
-set p_pitch = 80
+set p_pitch = 95
 set i_pitch = 45
-set d_pitch = 61
-set p_roll = 80
+set d_pitch = 50
+set p_roll = 95
 set i_roll = 45
-set d_roll = 60
+set d_roll = 50
 set p_yaw = 185
 set i_yaw = 45
 set d_yaw = 20
@@ -437,7 +436,7 @@ rateprofile 0
 rateprofile 0
 
 set rc_rate = 100
-set rc_rate_yaw = 101
+set rc_rate_yaw = 100
 set rc_expo = 0
 set rc_yaw_expo = 0
 set thr_mid = 50
