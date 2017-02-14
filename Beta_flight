@@ -1,285 +1,6 @@
-Entering CLI Mode, type 'exit' to return, or 'help'
-
-# set
-Current settings: 
-mid_rc = 1500
-min_check = 1100
-max_check = 1900
-rssi_channel = 0
-rssi_scale = 30
-rc_interpolation = AUTO
-rc_interpolation_interval = 19
-rssi_ppm_invert = OFF
-input_filtering_mode = OFF
-roll_yaw_cam_mix_degrees = 0
-max_aux_channels = 6
-debug_mode = NONE
-min_throttle = 1070
-max_throttle = 2000
-min_command = 1000
-servo_center_pulse = 1500
-max_esc_throttle_jump = 0
-3d_deadband_low = 1406
-3d_deadband_high = 1514
-3d_neutral = 1460
-3d_deadband_throttle = 50
-use_unsynced_pwm = OFF
-motor_pwm_protocol = BRUSHED
-motor_pwm_rate = 400
-servo_pwm_rate = 50
-disarm_kill_switch = ON
-gyro_cal_on_first_arm = OFF
-auto_disarm_delay = 5
-small_angle = 25
-fixedwing_althold_dir = 1
-reboot_character = 82
-gps_provider = NMEA
-gps_sbas_mode = AUTO
-gps_auto_config = ON
-gps_auto_baud = OFF
-gps_pos_p = 15
-gps_pos_i = 0
-gps_pos_d = 0
-gps_posr_p = 34
-gps_posr_i = 14
-gps_posr_d = 53
-gps_nav_p = 25
-gps_nav_i = 33
-gps_nav_d = 83
-gps_wp_radius = 200
-nav_controls_heading = ON
-nav_speed_min = 100
-nav_speed_max = 300
-nav_slew_rate = 30
-serialrx_provider = SPEK1024
-sbus_inversion = ON
-spektrum_sat_bind = 0
-spektrum_sat_bind_autoreset = 1
-telemetry_switch = OFF
-telemetry_inversion = ON
-frsky_default_lattitude =  0.000
-frsky_default_longitude =  0.000
-frsky_coordinates_format = 0
-frsky_unit = IMPERIAL
-frsky_vfas_precision = 0
-frsky_vfas_cell_voltage = OFF
-hott_alarm_sound_interval = 5
-battery_capacity = 0
-vbat_scale = 110
-vbat_max_cell_voltage = 43
-vbat_min_cell_voltage = 33
-vbat_warning_cell_voltage = 35
-vbat_hysteresis = 1
-current_meter_scale = 400
-current_meter_offset = 0
-multiwii_current_meter_output = OFF
-current_meter_type = ADC
-align_gyro = DEFAULT
-align_acc = DEFAULT
-align_mag = DEFAULT
-align_board_roll = 0
-align_board_pitch = 0
-align_board_yaw = 0
-max_angle_inclination = 700
-pid_delta_method = MEASUREMENT
-gyro_lpf = OFF
-gyro_sync_denom = 1
-gyro_lowpass_type = PT1
-gyro_lowpass = 90
-gyro_notch1_hz = 400
-gyro_notch1_cutoff = 300
-gyro_notch2_hz = 200
-gyro_notch2_cutoff = 100
-moron_threshold = 32
-imu_dcm_kp = 2500
-imu_dcm_ki = 0
-alt_hold_deadband = 40
-alt_hold_fast_change = ON
-deadband = 3
-yaw_deadband = 2
-throttle_correction_value = 0
-throttle_correction_angle = 800
-yaw_control_direction = 1
-yaw_motor_direction = 1
-yaw_p_limit = 500
-pidsum_limit = 700
-tri_unarmed_servo = ON
-servo_lowpass_freq = 400
-servo_lowpass_enable = OFF
-rc_rate = 100
-rc_rate_yaw = 100
-rc_expo = 0
-rc_yaw_expo = 0
-thr_mid = 50
-thr_expo = 0
-roll_srate = 80
-pitch_srate = 80
-yaw_srate = 80
-tpa_rate = 10
-tpa_breakpoint = 1650
-airmode_activate_throttle = 1350
-failsafe_delay = 10
-failsafe_off_delay = 10
-failsafe_throttle = 1000
-failsafe_kill_switch = OFF
-failsafe_throttle_low_delay = 100
-failsafe_procedure = DROP
-rx_min_usec = 885
-rx_max_usec = 2115
-gimbal_mode = NORMAL
-acc_hardware = AUTO
-acc_lpf_hz =  10.000
-accxy_deadband = 40
-accz_deadband = 40
-acc_unarmedcal = ON
-acc_trim_pitch = 0
-acc_trim_roll = 0
-baro_tab_size = 21
-baro_noise_lpf =  0.600
-baro_cf_vel =  0.985
-baro_cf_alt =  0.965
-baro_hardware = NONE
-mag_hardware = NONE
-mag_declination = 0
-dterm_lowpass_type = BIQUAD
-dterm_lowpass = 100
-dterm_notch_hz = 260
-dterm_notch_cutoff = 160
-vbat_pid_compensation = OFF
-pid_at_min_throttle = ON
-iterm_throttle_gain = 0
-setpoint_relax_ratio = 85
-dterm_setpoint_weight = 150
-yaw_rate_accel_limit = 220
-rate_accel_limit = 0
-accum_threshold = 130
-yaw_accum_threshold = 32
-yaw_lowpass = 0
-pid_process_denom = 4
-pid_controller = BETAFLIGHT
-p_pitch = 95
-i_pitch = 45
-d_pitch = 50
-p_roll = 95
-i_roll = 45
-d_roll = 50
-p_yaw = 185
-i_yaw = 45
-d_yaw = 20
-p_alt = 50
-i_alt = 0
-d_alt = 0
-p_level = 15
-i_level = 10
-d_level = 100
-p_vel = 55
-i_vel = 55
-d_vel = 75
-level_sensitivity =  2.000
-blackbox_rate_num = 1
-blackbox_rate_denom = 1
-blackbox_device = SDCARD
-blackbox_on_motor_test = OFF
-magzero_x = 0
-magzero_y = 0
-magzero_z = 0
-ledstrip_visual_beeper = OFF
-
-# set p_pitch = 55
-p_pitch set to 55
-# set i_pitch = 15
-i_pitch set to 15
-# set d_pitch = 20
-d_pitch set to 20
-# set p_roll = 45
-p_roll set to 45
-# set i_roll = 15
-i_roll set to 15
-# set d_roll = 15
-d_roll set to 15
-# set p_yaw = 90
-p_yaw set to 90
-# set i_yaw = 20
-i_yaw set to 20
-# set d_yaw = 20
-d_yaw set to 20
-# set p_alt = 50
-p_alt set to 50
-# set i_alt = 0
-i_alt set to 0
-# set d_alt = 0
-d_alt set to 0
-# set p_level = 50
-p_level set to 50
-# set i_level = 50
-i_level set to 50
-# set d_level = 100
-d_level set to 100
-# set p_vel = 55
-p_vel set to 55
-# set i_vel = 55
-i_vel set to 55
-# set d_vel = 75
-d_vel set to 75
-# rateprofile 0
-rateprofile 0
-
-# set p_pitch = 55
-p_pitch set to 55
-# set i_pitch = 15
-i_pitch set to 15
-# set d_pitch = 20
-d_pitch set to 20
-# set p_roll = 45
-p_roll set to 45
-# set i_roll = 15
-i_roll set to 15
-# set p_pitch = 55
-p_pitch set to 55
-# set i_pitch = 15
-i_pitch set to 15
-# set d_pitch = 20
-d_pitch set to 20
-# set p_roll = 45
-p_roll set to 45
-# set i_roll = 15
-i_roll set to 15
-# set d_roll = 15
-d_roll set to 15
-# set p_yaw = 90
-p_yaw set to 90
-# set i_yaw = 20
-i_yaw set to 20
-# set d_yaw = 20
-d_yaw set to 20
-# set p_alt = 50
-p_alt set to 50
-# set i_alt = 0
-i_alt set to 0
-# set d_alt = 0
-d_alt set to 0
-# set p_level = 50
-p_level set to 50
-# set i_level = 50
-i_level set to 50
-# set d_level = 100
-d_level set to 100
-# set p_vel = 55
-p_vel set to 55
-# set i_vel = 55
-i_vel set to 55
-# set d_vel = 75
-d_vel set to 75
-# rateprofile 0
-rateprofile 0
-
-# dump
-
 # version
 # BetaFlight/SPRACINGF3EVO 3.0.1 Oct 18 2016 / 10:36:44 (48b7b4f)
 
-# name
-name -
 
 # mixer
 mixer QUADX
@@ -466,8 +187,8 @@ mode_color 6 10 0
 
 # aux
 aux 0 0 0 1925 2100
-aux 1 1 1 1375 1650
-aux 2 2 1 1900 2100
+aux 1 1 1 900 1500
+aux 2 2 1 1500 2100
 aux 3 0 0 900 900
 aux 4 0 0 900 900
 aux 5 0 0 900 900
@@ -557,7 +278,7 @@ set motor_pwm_rate = 400
 set servo_pwm_rate = 50
 set disarm_kill_switch = ON
 set gyro_cal_on_first_arm = OFF
-set auto_disarm_delay = 5
+set auto_disarm_delay = 15
 set small_angle = 25
 set fixedwing_althold_dir = 1
 set reboot_character = 82
@@ -675,7 +396,7 @@ set dterm_lowpass_type = BIQUAD
 set dterm_lowpass = 100
 set dterm_notch_hz = 260
 set dterm_notch_cutoff = 160
-set vbat_pid_compensation = OFF
+set vbat_pid_compensation = ON
 set pid_at_min_throttle = ON
 set iterm_throttle_gain = 0
 set setpoint_relax_ratio = 85
@@ -704,21 +425,20 @@ set d_level = 100
 set p_vel = 55
 set i_vel = 55
 set d_vel = 75
-set level_sensitivity =  2.000
 rateprofile 0
 
 # rateprofile
 rateprofile 0
 
-set rc_rate = 100
+set rc_rate = 81
 set rc_rate_yaw = 100
 set rc_expo = 0
 set rc_yaw_expo = 0
 set thr_mid = 50
 set thr_expo = 0
-set roll_srate = 80
-set pitch_srate = 80
-set yaw_srate = 80
+set roll_srate = 85
+set pitch_srate = 85
+set yaw_srate = 70
 set tpa_rate = 10
 set tpa_breakpoint = 1650
 
