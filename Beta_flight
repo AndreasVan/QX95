@@ -1,6 +1,4 @@
 
-Entering CLI Mode, type 'exit' to return, or 'help'
-
 # dump
 
 # version
@@ -58,7 +56,6 @@ feature RX_PPM
 feature VBAT
 feature MOTOR_STOP
 feature FAILSAFE
-feature CURRENT_METER
 feature RSSI_ADC
 feature LED_STRIP
 
@@ -193,8 +190,8 @@ mode_color 6 9 0
 mode_color 6 10 0
 
 # aux
-aux 0 0 0 1925 2100
-aux 1 1 1 1325 1675
+aux 0 0 0 1900 2100
+aux 1 1 1 1350 1625
 aux 2 2 1 1850 2100
 aux 3 0 0 900 900
 aux 4 0 0 900 900
@@ -242,7 +239,7 @@ rxfail 0 a
 rxfail 1 a
 rxfail 2 a
 rxfail 3 a
-rxfail 4 h
+rxfail 4 s 1000
 rxfail 5 h
 rxfail 6 h
 rxfail 7 h
@@ -270,7 +267,7 @@ set input_filtering_mode = OFF
 set roll_yaw_cam_mix_degrees = 0
 set max_aux_channels = 6
 set debug_mode = NONE
-set min_throttle = 1070
+set min_throttle = 1050
 set max_throttle = 2000
 set min_command = 1000
 set servo_center_pulse = 1500
@@ -281,7 +278,7 @@ set 3d_neutral = 1460
 set 3d_deadband_throttle = 50
 set use_unsynced_pwm = OFF
 set motor_pwm_protocol = BRUSHED
-set motor_pwm_rate = 400
+set motor_pwm_rate = 32000
 set servo_pwm_rate = 50
 set disarm_kill_switch = ON
 set gyro_cal_on_first_arm = OFF
@@ -298,7 +295,7 @@ set nav_controls_heading = ON
 set nav_speed_min = 100
 set nav_speed_max = 300
 set nav_slew_rate = 30
-set serialrx_provider = SPEK1024
+set serialrx_provider = SBUS
 set sbus_inversion = ON
 set spektrum_sat_bind = 0
 set spektrum_sat_bind_autoreset = 1
@@ -329,7 +326,7 @@ set align_board_pitch = 0
 set align_board_yaw = 0
 set max_angle_inclination = 700
 set gyro_lpf = OFF
-set gyro_sync_denom = 1
+set gyro_sync_denom = 2
 set gyro_lowpass_type = PT1
 set gyro_lowpass = 90
 set gyro_notch1_hz = 400
@@ -342,7 +339,7 @@ set imu_dcm_ki = 0
 set alt_hold_deadband = 40
 set alt_hold_fast_change = ON
 set deadband = 3
-set yaw_deadband = 2
+set yaw_deadband = 3
 set throttle_correction_value = 0
 set throttle_correction_angle = 800
 set yaw_control_direction = 1
@@ -351,7 +348,7 @@ set tri_unarmed_servo = ON
 set servo_lowpass_freq = 400
 set servo_lowpass_enable = OFF
 set airmode_activate_throttle = 1350
-set failsafe_delay = 10
+set failsafe_delay = 5
 set failsafe_off_delay = 10
 set failsafe_throttle = 1000
 set failsafe_kill_switch = OFF
@@ -374,7 +371,7 @@ set baro_cf_alt =  0.965
 set baro_hardware = NONE
 set mag_hardware = NONE
 set mag_declination = 0
-set pid_process_denom = 4
+set pid_process_denom = 1
 set blackbox_rate_num = 1
 set blackbox_rate_denom = 1
 set blackbox_device = SDCARD
@@ -414,38 +411,38 @@ set accum_threshold = 130
 set yaw_accum_threshold = 32
 set yaw_lowpass = 0
 set pid_controller = BETAFLIGHT
-set p_pitch = 55
-set i_pitch = 15
-set d_pitch = 20
+set p_pitch = 45
+set i_pitch = 36
+set d_pitch = 60
 set p_roll = 45
-set i_roll = 15
-set d_roll = 15
-set p_yaw = 90
-set i_yaw = 20
+set i_roll = 36
+set d_roll = 60
+set p_yaw = 80
+set i_yaw = 40
 set d_yaw = 20
 set p_alt = 50
 set i_alt = 0
 set d_alt = 0
-set p_level = 50
-set i_level = 50
+set p_level = 45
+set i_level = 45
 set d_level = 100
 set p_vel = 55
 set i_vel = 55
 set d_vel = 75
 set level_sensitivity =  2.000
-rateprofile 0
+rateprofile 1
 
 # rateprofile
-rateprofile 0
+rateprofile 1
 
-set rc_rate = 81
+set rc_rate = 100
 set rc_rate_yaw = 100
 set rc_expo = 0
 set rc_yaw_expo = 0
 set thr_mid = 50
 set thr_expo = 0
-set roll_srate = 85
-set pitch_srate = 85
+set roll_srate = 70
+set pitch_srate = 70
 set yaw_srate = 70
 set tpa_rate = 10
 set tpa_breakpoint = 1650
