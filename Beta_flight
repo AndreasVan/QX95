@@ -1,6 +1,13 @@
+
+Entering CLI Mode, type 'exit' to return, or 'help'
+
+# dump
+
 # version
 # BetaFlight/SPRACINGF3EVO 3.0.1 Oct 18 2016 / 10:36:44 (48b7b4f)
 
+# name
+name -
 
 # mixer
 mixer QUADX
@@ -187,8 +194,8 @@ mode_color 6 10 0
 
 # aux
 aux 0 0 0 1925 2100
-aux 1 1 1 900 1500
-aux 2 2 1 1500 2100
+aux 1 1 1 1325 1675
+aux 2 2 1 1850 2100
 aux 3 0 0 900 900
 aux 4 0 0 900 900
 aux 5 0 0 900 900
@@ -396,7 +403,7 @@ set dterm_lowpass_type = BIQUAD
 set dterm_lowpass = 100
 set dterm_notch_hz = 260
 set dterm_notch_cutoff = 160
-set vbat_pid_compensation = ON
+set vbat_pid_compensation = OFF
 set pid_at_min_throttle = ON
 set iterm_throttle_gain = 0
 set setpoint_relax_ratio = 85
@@ -425,6 +432,7 @@ set d_level = 100
 set p_vel = 55
 set i_vel = 55
 set d_vel = 75
+set level_sensitivity =  2.000
 rateprofile 0
 
 # rateprofile
