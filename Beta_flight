@@ -1,3 +1,132 @@
+2017-02-14 @ 21:11:18 -- Running - OS: MacOS, Chrome: 56.0.2924.87, Configurator: 1.9.1
+2017-02-14 @ 21:11:20 -- Serial port successfully opened with ID: 12
+2017-02-14 @ 21:11:24 -- Serial port successfully closed
+2017-02-14 @ 21:11:27 -- Serial port successfully opened with ID: 13
+2017-02-14 @ 21:11:27 -- MultiWii API version received - 1.21.0
+2017-02-14 @ 21:11:27 -- Flight controller info, identifier: BTFL, version: 3.0.1
+2017-02-14 @ 21:11:27 -- Running firmware released on: Oct 18 2016 10:36:44
+2017-02-14 @ 21:11:27 -- Board: SPEV, version: 0
+2017-02-14 @ 21:11:27 -- Unique device ID received - 0x1b00245333571820333335
+2017-02-14 @ 21:11:38 -- Accelerometer calibration started
+2017-02-14 @ 21:11:40 -- Accelerometer calibration finished
+2017-02-14 @ 21:11:52 -- Accelerometer calibration started
+2017-02-14 @ 21:11:54 -- Accelerometer calibration finished
+2017-02-14 @ 21:11:56 -- Accelerometer calibration started
+2017-02-14 @ 21:11:58 -- Accelerometer calibration finished
+2017-02-14 @ 21:12:02 -- CLI mode detected
+2017-02-14 @ 21:12:08 -- CLI reboot detected
+2017-02-14 @ 21:12:08 -- Device - Rebooting
+2017-02-14 @ 21:12:08 -- Serial port successfully closed
+2017-02-14 @ 21:12:11 -- Serial port successfully opened with ID: 14
+2017-02-14 @ 21:12:11 -- MultiWii API version received - 1.21.0
+2017-02-14 @ 21:12:11 -- Flight controller info, identifier: BTFL, version: 3.0.1
+2017-02-14 @ 21:12:11 -- Running firmware released on: Oct 18 2016 10:36:44
+2017-02-14 @ 21:12:11 -- Board: SPEV, version: 0
+2017-02-14 @ 21:12:11 -- Unique device ID received - 0x1b00245333571820333335
+2017-02-14 @ 21:12:28 -- Serial port successfully closed
+2017-02-14 @ 21:13:28 -- Serial port successfully opened with ID: 15
+2017-02-14 @ 21:13:28 -- MultiWii API version received - 1.21.0
+2017-02-14 @ 21:13:28 -- Flight controller info, identifier: BTFL, version: 3.0.1
+2017-02-14 @ 21:13:28 -- Running firmware released on: Oct 18 2016 10:36:44
+2017-02-14 @ 21:13:28 -- Board: SPEV, version: 0
+2017-02-14 @ 21:13:28 -- Unique device ID received - 0x1b00245333571820333335
+2017-02-14 @ 21:13:43 -- EEPROM saved
+2017-02-14 @ 21:13:43 -- Device - Rebooting
+2017-02-14 @ 21:13:43 -- Serial port successfully closed
+2017-02-14 @ 21:13:45 -- Serial port successfully opened with ID: 16
+2017-02-14 @ 21:13:45 -- MultiWii API version received - 1.21.0
+2017-02-14 @ 21:13:45 -- Flight controller info, identifier: BTFL, version: 3.0.1
+2017-02-14 @ 21:13:45 -- Running firmware released on: Oct 18 2016 10:36:44
+2017-02-14 @ 21:13:45 -- Board: SPEV, version: 0
+2017-02-14 @ 21:13:45 -- Unique device ID received - 0x1b00245333571820333335
+2017-02-14 @ 21:14:24 -- Accelerometer calibration started
+2017-02-14 @ 21:14:26 -- Accelerometer calibration finished
+2017-02-14 @ 21:15:21 -- EEPROM saved
+2017-02-14 @ 21:15:21 -- Device - Rebooting
+2017-02-14 @ 21:15:21 -- Serial port successfully closed
+2017-02-14 @ 21:15:24 -- Serial port successfully opened with ID: 17
+2017-02-14 @ 21:15:24 -- MultiWii API version received - 1.21.0
+2017-02-14 @ 21:15:24 -- Flight controller info, identifier: BTFL, version: 3.0.1
+2017-02-14 @ 21:15:24 -- Running firmware released on: Oct 18 2016 10:36:44
+2017-02-14 @ 21:15:24 -- Board: SPEV, version: 0
+2017-02-14 @ 21:15:24 -- Unique device ID received - 0x1b00245333571820333335
+2017-02-14 @ 21:15:24 -- Serial port successfully closed
+2017-02-14 @ 21:15:32 -- Serial port successfully opened with ID: 18
+2017-02-14 @ 21:15:32 -- MultiWii API version received - 1.21.0
+2017-02-14 @ 21:15:32 -- Flight controller info, identifier: BTFL, version: 3.0.1
+2017-02-14 @ 21:15:32 -- Running firmware released on: Oct 18 2016 10:36:44
+2017-02-14 @ 21:15:32 -- Board: SPEV, version: 0
+2017-02-14 @ 21:15:32 -- Unique device ID received - 0x1b00245333571820333335
+2017-02-14 @ 21:15:59 -- EEPROM saved
+2017-02-14 @ 21:16:40 -- EEPROM saved
+2017-02-14 @ 21:16:54 -- EEPROM saved
+2017-02-14 @ 21:17:15 -- EEPROM saved
+2017-02-14 @ 21:17:17 -- EEPROM saved
+2017-02-14 @ 21:17:18 -- Serial port successfully closed
+2017-02-14 @ 21:18:28 -- Serial port successfully opened with ID: 19
+2017-02-14 @ 21:18:28 -- MultiWii API version received - 1.21.0
+2017-02-14 @ 21:18:28 -- Flight controller info, identifier: BTFL, version: 3.0.1
+2017-02-14 @ 21:18:28 -- Running firmware released on: Oct 18 2016 10:36:44
+2017-02-14 @ 21:18:28 -- Board: SPEV, version: 0
+2017-02-14 @ 21:18:28 -- Unique device ID received - 0x1b00245333571820333335
+2017-02-14 @ 21:18:31 -- Accelerometer calibration started
+2017-02-14 @ 21:18:33 -- Accelerometer calibration finished
+2017-02-14 @ 21:20:02 -- EEPROM saved
+2017-02-14 @ 21:20:15 -- Loaded Rateprofile: 2
+2017-02-14 @ 21:20:18 -- Loaded Rateprofile: 3
+2017-02-14 @ 21:20:22 -- Loaded Rateprofile: 1
+2017-02-14 @ 21:20:32 -- Loaded Rateprofile: 2
+2017-02-14 @ 21:20:36 -- Loaded Rateprofile: 3
+2017-02-14 @ 21:20:39 -- Loaded Rateprofile: 2
+2017-02-14 @ 21:20:56 -- EEPROM saved
+2017-02-14 @ 21:20:59 -- EEPROM saved
+2017-02-14 @ 21:21:06 -- Serial port successfully closed
+2017-02-14 @ 21:25:49 -- Serial port successfully opened with ID: 20
+2017-02-14 @ 21:25:49 -- MultiWii API version received - 1.21.0
+2017-02-14 @ 21:25:49 -- Flight controller info, identifier: BTFL, version: 3.0.1
+2017-02-14 @ 21:25:49 -- Running firmware released on: Oct 18 2016 10:36:44
+2017-02-14 @ 21:25:49 -- Board: SPEV, version: 0
+2017-02-14 @ 21:25:49 -- Unique device ID received - 0x1b00245333571820333335
+2017-02-14 @ 21:25:51 -- CLI mode detected
+2017-02-14 @ 21:27:03 -- Serial port successfully closed
+2017-02-14 @ 21:27:06 -- Serial port successfully opened with ID: 21
+2017-02-14 @ 21:27:06 -- MultiWii API version received - 1.21.0
+2017-02-14 @ 21:27:06 -- Flight controller info, identifier: BTFL, version: 3.0.1
+2017-02-14 @ 21:27:06 -- Running firmware released on: Oct 18 2016 10:36:44
+2017-02-14 @ 21:27:06 -- Board: SPEV, version: 0
+2017-02-14 @ 21:27:06 -- Unique device ID received - 0x1b00245333571820333335
+2017-02-14 @ 21:27:50 -- EEPROM saved
+2017-02-14 @ 21:28:01 -- EEPROM saved
+2017-02-14 @ 21:28:02 -- EEPROM saved
+2017-02-14 @ 21:28:28 -- EEPROM saved
+2017-02-14 @ 21:28:30 -- EEPROM saved
+2017-02-14 @ 21:28:37 -- EEPROM saved
+2017-02-14 @ 21:28:58 -- EEPROM saved
+2017-02-14 @ 21:29:19 -- EEPROM saved
+2017-02-14 @ 21:29:28 -- EEPROM saved
+2017-02-14 @ 21:29:39 -- Accelerometer calibration started
+2017-02-14 @ 21:29:41 -- Accelerometer calibration finished
+2017-02-14 @ 21:29:44 -- Serial port successfully closed
+2017-02-14 @ 21:37:13 -- Serial port successfully opened with ID: 22
+2017-02-14 @ 21:37:13 -- MultiWii API version received - 1.21.0
+2017-02-14 @ 21:37:13 -- Flight controller info, identifier: BTFL, version: 3.0.1
+2017-02-14 @ 21:37:13 -- Running firmware released on: Oct 18 2016 10:36:44
+2017-02-14 @ 21:37:13 -- Board: SPEV, version: 0
+2017-02-14 @ 21:37:13 -- Unique device ID received - 0x1b00245333571820333335
+2017-02-14 @ 21:37:16 -- Accelerometer calibration started
+2017-02-14 @ 21:37:18 -- Accelerometer calibration finished
+Setup
+Ports
+Configuration
+PID Tuning
+Receiver
+Modes
+Motors
+LED Strip
+CLI
+Note: Leaving CLI tab or pressing Disconnect will automatically send "exit" to the board. With the latest firmware this will make the controller restart and unsaved changes will be lost.
+
+Entering CLI Mode, type 'exit' to return, or 'help'
 
 # dump
 
@@ -190,10 +319,10 @@ mode_color 6 9 0
 mode_color 6 10 0
 
 # aux
-aux 0 0 0 1900 2100
-aux 1 1 1 1350 1625
-aux 2 2 1 1850 2100
-aux 3 0 0 900 900
+aux 0 0 0 1850 2100
+aux 1 27 1 1850 2100
+aux 2 1 1 925 1225
+aux 3 2 1 1375 1675
 aux 4 0 0 900 900
 aux 5 0 0 900 900
 aux 6 0 0 900 900
